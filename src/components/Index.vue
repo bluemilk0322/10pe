@@ -1,20 +1,23 @@
 <template>
-    <div class="columns" style="background-color: #f0f0f0;">
+    <div class="columns is-gapless">
         <Menu></Menu>
+        <Index_Content></Index_Content>
     </div>
 </template>
 
 <script>
 import Menu from '@/components/Menu';
+import Index_Content from '@/components/Content/Index_content';
   export default {
     name: 'Index',
     components: {
-      Menu
+      Menu,
+      Index_Content
   }
 }
 </script>
 
-<style scoped>
+<style>
 .columns{
     height: 100%;
 }

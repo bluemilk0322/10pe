@@ -35,11 +35,8 @@
   }
 </script>
 
-<style scoped>
+<style>
 .column is-2{
-    background-color: #2e3e4e;
-}
-.menu{
     height: 100%;
 }
 </style>
