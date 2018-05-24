@@ -1,9 +1,9 @@
 <template>
   <div class="column is-2">
     <div class="menu is-dark">
-      <menus label="Administration">
+      <menus label="The University Topic">
         <menu-item icon="twitter">
-          <span>子目录1</span>
+          <span>10PE</span>
           <menus slot="sub">
             <menu-item :to="{ path: '/components/menu/submenu1', query: { userId: 321 }}" icon="qq" :is-active="true">子子目录1</menu-item>
             <menu-item icon="google">
@@ -35,7 +35,10 @@
   }
 </script>
 
-<style>
+<style scoped>
+/* .menus label{
+    font-size: 50px;
+} */
 .column is-2{
     height: 100%;
 }

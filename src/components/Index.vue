@@ -20,5 +20,8 @@ import Index_Content from '@/components/Content/Index_content';
 <style>
 .columns{
     height: 100%;
+    background-image: url(../assets/Wallpaper.jpg);
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
 }
 </style>
